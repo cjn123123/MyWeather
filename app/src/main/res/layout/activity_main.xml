@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/choose_area_fragment"
-        android:name="com.example.myweather.ChooseAreaFragment"/>
+        android:name="com.example.myweather.fragment.ChooseAreaFragment"/>
 
 
 

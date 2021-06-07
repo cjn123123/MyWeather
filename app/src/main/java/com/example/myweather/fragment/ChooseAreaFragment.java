@@ -1,4 +1,4 @@
-package com.example.myweather;
+package com.example.myweather.fragment;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -16,6 +16,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.myweather.R;
 import com.example.myweather.db.City;
 import com.example.myweather.db.County;
 import com.example.myweather.db.Province;
@@ -71,12 +72,12 @@ public class ChooseAreaFragment extends Fragment {
     private Province selectedProvince;
 
     /*
-     * 选中的市份
+     * 选中的市
      * */
     private City selectedCity;
 
     /*
-     * 选中的县份
+     * 选中的县
      * */
     private Province selectedCounty;
 
