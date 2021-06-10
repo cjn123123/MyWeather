@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:background="@color/design_default_color_primary">
 
+        <!--允许滚动方式查看屏幕外的内容-->
         <ScrollView
             android:id="@+id/weather_layout"
             android:layout_width="match_parent"
