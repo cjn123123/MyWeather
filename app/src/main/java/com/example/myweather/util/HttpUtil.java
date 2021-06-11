@@ -1,5 +1,7 @@
 package com.example.myweather.util;
 
+import org.json.JSONObject;
+
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 

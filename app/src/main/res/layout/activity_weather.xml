@@ -11,6 +11,13 @@
         android:layout_height="match_parent"
         android:background="@color/design_default_color_primary">
 
+        <!--背景图-->
+        <ImageView
+            android:id="@+id/bing_pic_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
         <!--允许滚动方式查看屏幕外的内容-->
         <ScrollView
             android:id="@+id/weather_layout"
@@ -22,7 +29,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:fitsSystemWindows="true">
 
                 <include layout="@layout/title"/>
                 <include layout="@layout/now"/>
